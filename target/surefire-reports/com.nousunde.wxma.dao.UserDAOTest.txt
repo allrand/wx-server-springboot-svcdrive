@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.nousunde.wxma.dao.UserDAOTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 6.63 sec - in com.nousunde.wxma.dao.UserDAOTest

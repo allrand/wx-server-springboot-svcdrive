@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Getting Started: Service drive for Nousunde</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<!--<p th:text="'Hello, ' + ${name} + '!'"/>-->
+<div class="container">
+    <!--<div th:replace="fragments :: navbar"></div>-->
+    <table class="table table-bordered table-striped">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Created</th>
+            <th>Summary</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:if="${messages.empty}">
+            <td colspan="3">No messages</td>
+        </tr>
+        <tr th:each="message : ${messages}">
+            <td th:text="${message.id}">1</td>
+            <td th:text="${#calendars.format(message.created)}">July 11, 2012 2:17:16 PM CDT</td>
+            <td>
+                <!--<a href="view.html" th:href="@{'/' + ${message.id}}" th:text="${message.summary}"> The summary </a>-->
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+
+</html>

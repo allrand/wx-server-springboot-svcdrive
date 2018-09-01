@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.nousunde.wxma.service.BookSvcTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 7, Time elapsed: 0.001 sec - in com.nousunde.wxma.service.BookSvcTest

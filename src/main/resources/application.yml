@@ -1,0 +1,44 @@
+debug: true
+logging:
+  level:
+    org.springframework.web: INFO #DEBUG
+    org.springframework: INFO
+    org.hibernate: INFO #DEBUG
+    com.nousunde.wxma: DEBUG #INFO #
+server:
+  context-path: /sdrive
+#  port: 8088
+#  context-path: /nousunde/sdrive-app
+wechat:
+
+  miniapp:
+    appid: wxf15932bd0d9966ef
+    secret: 4cc46c75f0c1fda66351aef7e05cf111
+    token: 211sc24ts40w7t57g071c0a440a0c0bc
+    aesKey: cw3DufajGwVsRH4ktRIaPLsgjC9qybPzOUB2u8PTife
+    msgDataFormat: JSON
+
+spring:
+  datasource:
+#    url: jdbc:mysql://192.168.1.208:3306/db_svcdrive?useUnicode=true&characterEncoding=utf8
+#    username: ornbsp
+#    password: ornbsp
+    url: jdbc:mysql://localhost:3306/db_svcdrive?useUnicode=true&characterEncoding=utf8
+#     username: svcuser
+    username: root
+    password: Root,.123
+
+  jpa:
+    hibernate:
+#      ddl-auto: create
+      ddl-auto: update
+    properties:
+       hibernate:
+         current_session_context_class: org.springframework.orm.hibernate5.SpringSessionContext
+
+
+datasource:
+  hibernate.dialect: org.hibernate.dialect.PostgreSQL95Dialect
+  ddl-auto : none
+  show-sql : false
+  format-sql : true

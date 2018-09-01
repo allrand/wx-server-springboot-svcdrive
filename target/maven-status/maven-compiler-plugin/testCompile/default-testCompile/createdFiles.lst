@@ -1,0 +1,8 @@
+com/nousunde/wxma/service/DockSvcTest.class
+com/nousunde/wxma/dao/UserDAOTest.class
+com/nousunde/wxma/service/BookSvcTest.class
+com/nousunde/wxma/dao/BasicDAOTest.class
+com/nousunde/wxma/controller/UserControllerTest.class
+com/nousunde/wxma/service/GoodsSvcTest.class
+com/nousunde/wxma/dao/BookDAOTest.class
+com/nousunde/wxma/dao/AcsDAOTest.class
